@@ -1,0 +1,31 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body { 
+  background: url(https://download.unsplash.com/photo-1428452932365-4e7e1c4b0987) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
