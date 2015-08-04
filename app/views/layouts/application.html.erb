@@ -10,14 +10,13 @@
   <nav class="navbar navbar-default">
         <div class="navbar-fluid">
           <div class="navbar-header">
-            <h1 id="logo">Chris Brucher's World</h1></div>
-            <div class='text-right'>
-                <%= link_to "Projects", "#", class: "btn btn-default" %>
-                <%= link_to "About Chris", "#", class: "btn btn-default" %>
-                <%= link_to "Contact Me", "#", class: "btn btn-default" %>
-            </div>
+          <%= link_to "Chris Brucher's World", root_path, id: 'logo' %>
+          <div class='button-bank'>
+            <%= link_to "Projects", portfolio_path, class: "btn btn-default" %>
+            <%= link_to "About Chris", "#", class: "btn btn-default" %>
+            <%= link_to "Contact Me", "#", class: "btn btn-default" %>
           </div>
-        </div>
+      </div>
   </nav>
 </head>
 <body>

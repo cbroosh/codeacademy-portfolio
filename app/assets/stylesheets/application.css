@@ -31,3 +31,17 @@
     width: 100%;
     margin-bottom: 0px;
 }
+
+nav #logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+    float: left;
+}
+
+.button-bank {
+    position: fixed;
+    right: 0;
+    padding-right: 10px;
+}
