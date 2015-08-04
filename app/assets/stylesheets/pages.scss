@@ -36,3 +36,58 @@ a {
     font-weight: 100;
     
 }
+
+#chris-info {
+    border-radius: 5px;
+    border-color: #1f1f1f;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #262626;
+    height: auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 15px;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 15px;
+}
+
+#profile-name {
+    font-family: 'Karla', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+#chris-about {
+    border-radius: 5px;
+    border-color: #1f1f1f;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #262626;
+    height: auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 15px;
+}
+
+#chris-about p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: left;
+    color: #fff;
+    margin: 10px;
+}

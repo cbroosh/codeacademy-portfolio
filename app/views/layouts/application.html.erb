@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio</title>
+  <title>Chris Brucher's World</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -13,8 +13,8 @@
           <%= link_to "Chris Brucher's World", root_path, id: 'logo' %>
           <div class='button-bank'>
             <%= link_to "Projects", portfolio_path, class: "btn btn-default" %>
-            <%= link_to "About Chris", "#", class: "btn btn-default" %>
-            <%= link_to "Contact Me", "#", class: "btn btn-default" %>
+            <%= link_to "About Chris", about_path, class: "btn btn-default" %>
+            <%= link_to "Contact Me", new_contact_path, class: "btn btn-default" %>
           </div>
       </div>
   </nav>
