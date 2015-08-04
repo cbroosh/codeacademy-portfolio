@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get '/about' => 'pages#about'
   get '/portfolio' => 'pages#portfolio'
   root 'pages#welcome'
   # The priority is based upon order of creation: first created -> highest priority.
