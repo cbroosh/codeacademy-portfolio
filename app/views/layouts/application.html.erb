@@ -20,8 +20,11 @@
   </nav>
 </head>
 <body>
-
-<%= yield %>
+<div class="container">  
+    <% flash.each do |key, value| %>
+      <%= content_tag :div, value, class: "alert alert-#{key}" %> <!-- Need to take another look at this -->
+    <% end %>
+  <%= yield %>
 
 <div class="footer">
       <nav class='navbar navbar-default'>
