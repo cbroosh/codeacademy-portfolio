@@ -1,0 +1,45 @@
+// Place all the styles related to the Portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#portfolio { position: relative;
+    overflow: auto; 
+    }
+    #portfolio li { list-style: none; height: auto; }
+        #portfolio ul li { float: left; }
+
+img {
+    max-height: 40%;
+    max-width: 40%;
+}
+
+.folio-item img {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+.supporting h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 48px;
+}
+
+.supporting p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 24px;
+}
+
+.supporting .highlight-box {
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: black;
+    opacity: 0.4;
+    margin-top: 15px;
+}
