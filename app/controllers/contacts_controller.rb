@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
             body = params[:contact][:comments]
             
             ContactMailer.contact_email(name, email, body).deliver
-            redirect_to new_contact_path, notice: "Message sent."
+            redirect_to new_contact_path
         else
             redirect_to new_contact_path, notice: "Something went wrong."
         end
